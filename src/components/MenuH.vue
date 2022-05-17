@@ -22,6 +22,4 @@ const activeIndex = ref(router.currentRoute.value.name) || ref('index')
 const handleSelect = (key: string, keyPath: string[]) => {
   console.log(key, keyPath)
 }
-
-console.log(activeIndex)
 </script>
